@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestStackoverflow" time="15.2" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestStackoverflow" time="16.272" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="idea.version" value="2018.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,7 +61,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testWebdriverStackOverflow" classname="TestStackoverflow" time="5.854">
+  <testcase name="testWebdriverStackOverflow" classname="TestStackoverflow" time="6.622">
     <failure message="Ссылка не содержит слово WebDriver: &#10;	&quot;Selenium using Python - Geckodriver executable needs to be in PATH&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Ссылка не содержит слово WebDriver: 
 	"Selenium using Python - Geckodriver executable needs to be in PATH"
@@ -78,7 +78,7 @@
 	Ссылка не содержит слово WebDriver: 
 	"Selenium using Python - Geckodriver executable needs to be in PATH"
 ]]></system-out>
-    <system-err><![CDATA[янв 24, 2019 2:41:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[янв 24, 2019 2:50:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1548330079127" stop="1548330087287" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+<ns2:test-suite start="1548330647340" stop="1548330656427" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <name>TestStackoverflow</name>
     <test-cases>
-        <test-case start="1548330079157" stop="1548330084965" status="failed">
+        <test-case start="1548330647367" stop="1548330653900" status="failed">
             <name>testWebdriverStackOverflow</name>
             <failure>
                 <message>AssertionError: Ссылка не содержит слово WebDriver: 
@@ -43,11 +43,11 @@
 </stack-trace>
             </failure>
             <steps>
-                <step start="1548330082320" stop="1548330083840" status="passed">
+                <step start="1548330650916" stop="1548330652579" status="passed">
                     <name>searchWebDriver</name>
                     <title>2) В строку поиска ввести значение «webdriver».</title>
                 </step>
-                <step start="1548330083842" stop="1548330084921" status="failed">
+                <step start="1548330652581" stop="1548330653876" status="failed">
                     <name>parseAndCheckSearchResults</name>
                     <title>3) Проверить, что в каждом результате представлено слово WebDriver.</title>
                 </step>
@@ -55,7 +55,7 @@
             <attachments/>
             <labels>
                 <label name="host" value="I-31-NIX"/>
-                <label name="thread" value="8276@I-31-NIX.main(1)"/>
+                <label name="thread" value="6036@I-31-NIX.main(1)"/>
             </labels>
         </test-case>
     </test-cases>
