@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestStackoverflow
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.2 sec <<< FAILURE! - in TestStackoverflow
+testWebdriverStackOverflow(TestStackoverflow)  Time elapsed: 5.854 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Ссылка не содержит слово WebDriver: 
+	"Selenium using Python - Geckodriver executable needs to be in PATH"
+	at TestStackoverflow.parseAndCheckSearchResults(TestStackoverflow.java:114)
+	at TestStackoverflow.testWebdriverStackOverflow(TestStackoverflow.java:65)
+
